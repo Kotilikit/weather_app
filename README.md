@@ -8,8 +8,8 @@
 
 ### Клонирование репозитория:
 
-https://github.com/Kotilikit/weather_app.git
-cd weather_app
+[-] git clone https://github.com/Kotilikit/weather_app.git
+[-] cd weather_app
 
 ### Установка зависимостей:
 
