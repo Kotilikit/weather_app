@@ -1,8 +1,27 @@
-# React + Vite
+# Приложение прогноза погоды
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Это мини-приложение для просмотра прогноза погоды. Оно предоставляет текущий прогноз погоды и прогноз на ближайшие 5 дней для введенного пользователем города. Приложение построено с использованием React и Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Инструкция по запуску
+
+### Клонирование репозитория:
+
+https://github.com/Kotilikit/weather_app.git
+cd weather_app
+
+### Установка зависимостей:
+
+npm install
+
+### Настройка API:
+
+Для работы приложения необходимо получить API-ключ от OpenWeatherMap. Подставьте ваш ключ в файл src/api/api.js: 
+const API_KEY = 'ВАШ_API_КЛЮЧ';
+
+### Запуск приложения:
+
+npm run dev
+
+
